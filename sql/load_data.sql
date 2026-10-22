@@ -2,7 +2,7 @@
 -- Ran from the PROJECT ROOT using psql so the relative paths below resolve:
 --   psql -h localhost -U postgres -d retail_datawarehouse -f sql/02_load_data.sql
 --
--- \This file copy runs/raw data on my local (client side), so it works even if Postgres
+-- This file copy runs/raw data on my local (client side), so it works even if Postgres
 -- is in Docker. Each \copy command stays on a single line.
 -- Empty unquoted CSV fields are loaded as NULL.
 
